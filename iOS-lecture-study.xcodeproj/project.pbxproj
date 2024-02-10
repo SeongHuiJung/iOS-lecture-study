@@ -13,6 +13,17 @@
 		57780CCF2B70B116005CAD35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57780CCD2B70B116005CAD35 /* Main.storyboard */; };
 		57780CD12B70B117005CAD35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57780CD02B70B117005CAD35 /* Assets.xcassets */; };
 		57780CD42B70B117005CAD35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57780CD22B70B117005CAD35 /* LaunchScreen.storyboard */; };
+		57780CDD2B70B3CF005CAD35 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57780CDB2B70B3CF005CAD35 /* DetailViewController.swift */; };
+		57780CDE2B70B3CF005CAD35 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57780CDC2B70B3CF005CAD35 /* DetailViewController.xib */; };
+		57780CE02B70BD43005CAD35 /* SegueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57780CDF2B70BD43005CAD35 /* SegueDetailViewController.swift */; };
+		57780CE32B70D1BB005CAD35 /* InstanceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57780CE12B70D1BB005CAD35 /* InstanceDetailViewController.swift */; };
+		57780CE42B70D1BB005CAD35 /* InstanceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57780CE22B70D1BB005CAD35 /* InstanceDetailViewController.xib */; };
+		57780CE72B70D5DE005CAD35 /* DelegateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57780CE52B70D5DE005CAD35 /* DelegateDetailViewController.swift */; };
+		57780CE82B70D5DE005CAD35 /* DelegateDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57780CE62B70D5DE005CAD35 /* DelegateDetailViewController.xib */; };
+		57E752442B75DD4D0028013C /* ClosureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E752422B75DD4D0028013C /* ClosureDetailViewController.swift */; };
+		57E752452B75DD4D0028013C /* ClosureDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E752432B75DD4D0028013C /* ClosureDetailViewController.xib */; };
+		57E752482B7645A10028013C /* ThreadDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E752462B7645A10028013C /* ThreadDetailViewController.swift */; };
+		57E752492B7645A10028013C /* ThreadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E752472B7645A10028013C /* ThreadDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		57780CD02B70B117005CAD35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57780CD32B70B117005CAD35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57780CD52B70B117005CAD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57780CDB2B70B3CF005CAD35 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		57780CDC2B70B3CF005CAD35 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		57780CDF2B70BD43005CAD35 /* SegueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDetailViewController.swift; sourceTree = "<group>"; };
+		57780CE12B70D1BB005CAD35 /* InstanceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceDetailViewController.swift; sourceTree = "<group>"; };
+		57780CE22B70D1BB005CAD35 /* InstanceDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstanceDetailViewController.xib; sourceTree = "<group>"; };
+		57780CE52B70D5DE005CAD35 /* DelegateDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateDetailViewController.swift; sourceTree = "<group>"; };
+		57780CE62B70D5DE005CAD35 /* DelegateDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelegateDetailViewController.xib; sourceTree = "<group>"; };
+		57E752422B75DD4D0028013C /* ClosureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureDetailViewController.swift; sourceTree = "<group>"; };
+		57E752432B75DD4D0028013C /* ClosureDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClosureDetailViewController.xib; sourceTree = "<group>"; };
+		57E752462B7645A10028013C /* ThreadDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadDetailViewController.swift; sourceTree = "<group>"; };
+		57E752472B7645A10028013C /* ThreadDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreadDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,17 @@
 				57780CD02B70B117005CAD35 /* Assets.xcassets */,
 				57780CD22B70B117005CAD35 /* LaunchScreen.storyboard */,
 				57780CD52B70B117005CAD35 /* Info.plist */,
+				57780CDB2B70B3CF005CAD35 /* DetailViewController.swift */,
+				57780CDC2B70B3CF005CAD35 /* DetailViewController.xib */,
+				57780CDF2B70BD43005CAD35 /* SegueDetailViewController.swift */,
+				57780CE12B70D1BB005CAD35 /* InstanceDetailViewController.swift */,
+				57780CE22B70D1BB005CAD35 /* InstanceDetailViewController.xib */,
+				57780CE52B70D5DE005CAD35 /* DelegateDetailViewController.swift */,
+				57780CE62B70D5DE005CAD35 /* DelegateDetailViewController.xib */,
+				57E752422B75DD4D0028013C /* ClosureDetailViewController.swift */,
+				57E752432B75DD4D0028013C /* ClosureDetailViewController.xib */,
+				57E752462B7645A10028013C /* ThreadDetailViewController.swift */,
+				57E752472B7645A10028013C /* ThreadDetailViewController.xib */,
 			);
 			path = "iOS-lecture-study";
 			sourceTree = "<group>";
@@ -125,9 +158,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E752452B75DD4D0028013C /* ClosureDetailViewController.xib in Resources */,
+				57E752492B7645A10028013C /* ThreadDetailViewController.xib in Resources */,
+				57780CE82B70D5DE005CAD35 /* DelegateDetailViewController.xib in Resources */,
 				57780CD42B70B117005CAD35 /* LaunchScreen.storyboard in Resources */,
 				57780CD12B70B117005CAD35 /* Assets.xcassets in Resources */,
 				57780CCF2B70B116005CAD35 /* Main.storyboard in Resources */,
+				57780CE42B70D1BB005CAD35 /* InstanceDetailViewController.xib in Resources */,
+				57780CDE2B70B3CF005CAD35 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +177,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				57780CCC2B70B116005CAD35 /* ViewController.swift in Sources */,
+				57E752442B75DD4D0028013C /* ClosureDetailViewController.swift in Sources */,
+				57E752482B7645A10028013C /* ThreadDetailViewController.swift in Sources */,
+				57780CE72B70D5DE005CAD35 /* DelegateDetailViewController.swift in Sources */,
 				57780CC82B70B116005CAD35 /* AppDelegate.swift in Sources */,
+				57780CE02B70BD43005CAD35 /* SegueDetailViewController.swift in Sources */,
 				57780CCA2B70B116005CAD35 /* SceneDelegate.swift in Sources */,
+				57780CE32B70D1BB005CAD35 /* InstanceDetailViewController.swift in Sources */,
+				57780CDD2B70B3CF005CAD35 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
