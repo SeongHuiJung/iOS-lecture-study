@@ -36,6 +36,9 @@
                             <rect key="frame" x="0.0" y="54.333333333333314" width="75" height="34.333333333333343"/>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            <connections>
+                                <action selector="action2:" destination="-1" eventType="touchUpInside" id="k49-tk-VQg"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QL7-u6-AD7">
                             <rect key="frame" x="0.0" y="108.66666666666663" width="75" height="34.333333333333343"/>
